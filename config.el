@@ -67,3 +67,9 @@
         org-modern-timestamp t
         org-modern-todo t
         org-modern-table t))
+
+;; jj mapping
+(after! evil
+  (setq evil-escape-key-sequence "jj"
+        evil-escape-delay 0.2)
+  (evil-escape-mode 1))
